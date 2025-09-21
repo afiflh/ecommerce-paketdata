@@ -10,7 +10,7 @@
       "id": "1",
       "role": "Customer",
       "joinDate": "15 Januari 2020",
-      "saldo": 25000
+      "saldo": 50000
     },
     {
       "id": "2",
@@ -173,6 +173,13 @@
       "customerId": 2,
       "packageId": 11,
       "date": "2025-09-20T18:28:22.852Z",
+      "status": "success"
+    },
+    {
+      "id": "7114",
+      "customerId": 1,
+      "packageId": 11,
+      "date": "2025-09-21T10:17:48.440Z",
       "status": "success"
     }
   ]
