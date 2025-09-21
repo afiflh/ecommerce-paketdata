@@ -7,7 +7,7 @@ Dibuat menggunakan React (frontend) dan json-server (backend mock API).
 
 ### 1. Clone Repository
 ```terminal
-git clone ...
+git clone https://github.com/afiflh/ecommerce-paketdata.git
 cd ecommerce-paketdata
 ```
 
