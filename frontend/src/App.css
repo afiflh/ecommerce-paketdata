@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+.custom-modaltopup-input:hover {
+    border-color: red !important;
+}

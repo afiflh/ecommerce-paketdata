@@ -1,0 +1,179 @@
+{
+  "customers": [
+    {
+      "username": "user1",
+      "password": "pw1",
+      "name": "Eka Putra",
+      "email": "putra@example.com",
+      "phone": "089876543210",
+      "desc": "Pengguna PAKETIN sejak 2020",
+      "id": "1",
+      "role": "Customer",
+      "joinDate": "15 Januari 2020",
+      "saldo": 25000
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "password": "pw2",
+      "name": "Dwi Putri",
+      "email": "putri@example.com",
+      "phone": "089876543210",
+      "desc": "Pelanggan setia dengan paket bulanan",
+      "role": "Customer",
+      "joinDate": "14 Agustus 2019",
+      "saldo": 0
+    }
+  ],
+  "packages": [
+    {
+      "id": "1",
+      "name": "Paket Harian 1GB",
+      "price": 5000,
+      "quota": "1GB",
+      "validity": "1 Hari"
+    },
+    {
+      "id": "2",
+      "name": "Paket Harian 2GB",
+      "price": 8000,
+      "quota": "2GB",
+      "validity": "1 Hari"
+    },
+    {
+      "id": "3",
+      "name": "Paket Harian 3GB",
+      "price": 12000,
+      "quota": "3GB",
+      "validity": "1 Hari"
+    },
+    {
+      "id": "4",
+      "name": "Paket Harian 5GB",
+      "price": 18000,
+      "quota": "5GB",
+      "validity": "1 Hari"
+    },
+    {
+      "id": "5",
+      "name": "Paket Harian 10GB",
+      "price": 35000,
+      "quota": "10GB",
+      "validity": "1 Hari"
+    },
+    {
+      "id": "6",
+      "name": "Paket Mingguan 5GB",
+      "price": 20000,
+      "quota": "5GB",
+      "validity": "7 Hari"
+    },
+    {
+      "id": "7",
+      "name": "Paket Mingguan 10GB",
+      "price": 35000,
+      "quota": "10GB",
+      "validity": "7 Hari"
+    },
+    {
+      "id": "8",
+      "name": "Paket Mingguan 15GB",
+      "price": 50000,
+      "quota": "15GB",
+      "validity": "7 Hari"
+    },
+    {
+      "id": "9",
+      "name": "Paket Mingguan 20GB",
+      "price": 65000,
+      "quota": "20GB",
+      "validity": "7 Hari"
+    },
+    {
+      "id": "10",
+      "name": "Paket Mingguan 30GB",
+      "price": 90000,
+      "quota": "30GB",
+      "validity": "7 Hari"
+    },
+    {
+      "id": "11",
+      "name": "Paket Bulanan 10GB",
+      "price": 50000,
+      "quota": "10GB",
+      "validity": "30 Hari"
+    },
+    {
+      "id": "12",
+      "name": "Paket Bulanan 20GB",
+      "price": 75000,
+      "quota": "20GB",
+      "validity": "30 Hari"
+    },
+    {
+      "id": "13",
+      "name": "Paket Bulanan 30GB",
+      "price": 100000,
+      "quota": "30GB",
+      "validity": "30 Hari"
+    },
+    {
+      "id": "14",
+      "name": "Paket Bulanan 50GB",
+      "price": 150000,
+      "quota": "50GB",
+      "validity": "30 Hari"
+    },
+    {
+      "id": "15",
+      "name": "Paket Bulanan 100GB",
+      "price": 250000,
+      "quota": "100GB",
+      "validity": "30 Hari"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "customerId": 1,
+      "packageId": 2,
+      "date": "2025-09-18T10:30:00",
+      "status": "success"
+    },
+    {
+      "id": "2",
+      "customerId": 2,
+      "packageId": 1,
+      "date": "2025-09-18T11:00:00",
+      "status": "pending"
+    },
+    {
+      "id": "3",
+      "customerId": 1,
+      "packageId": 1,
+      "date": "2025-09-19T11:00:00",
+      "status": "pending"
+    },
+    {
+      "id": "4",
+      "customerId": 2,
+      "packageId": 2,
+      "date": "2025-09-19T11:00:00",
+      "status": "success"
+    },
+    {
+      "id": "e438",
+      "customerId": 1,
+      "packageId": 1,
+      "date": "2025-09-20T18:24:20.947Z",
+      "status": "success"
+    },
+    {
+      "id": "847c",
+      "customerId": 2,
+      "packageId": 11,
+      "date": "2025-09-20T18:28:22.852Z",
+      "status": "success"
+    }
+  ]
+}
